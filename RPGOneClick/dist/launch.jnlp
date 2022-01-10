@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>RPGOneClick</title>
+        <vendor>jgmda</vendor>
+        <homepage href=""/>
+        <description>RPGOneClick</description>
+        <description kind="short">RPGOneClick</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="RPGOneClick.jar" main="true"/>
+    <jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/jl1.0.1.jar"/>
+</resources>
+    <application-desc main-class="rpgoneclick.Login">
+    </application-desc>
+</jnlp>
